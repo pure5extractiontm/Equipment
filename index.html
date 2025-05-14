@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PURE5™ is an industry leader in cannabis extraction equipment, specializing in eco-friendly R134a technology for producing premium full-spectrum extracts.">
+  <meta name="keywords" content="cannabis extraction equipment, R134a extraction technology, hemp extraction, full-spectrum extracts, eco-friendly extraction systems, PURE5 extraction systems">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="PURE5™ - Advanced Cannabis Extraction Equipment | R134a Technology">
+  <meta property="og:description" content="PURE5™ offers cutting-edge extraction systems using eco-friendly R134a technology to create premium full-spectrum extracts for the cannabis industry.">
+  <meta property="og:image" content="path/to/slider-image-01.png">
+  <meta property="og:url" content="https://pure5extraction.com">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PURE5™ Extraction">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PURE5™ - Advanced Cannabis Extraction Equipment | R134a Technology">
+  <meta name="twitter:description" content="PURE5™ provides advanced extraction systems using R134a technology for producing full-spectrum extracts.">
+  <meta name="twitter:image" content="path/to/slider-image-01.png">
+  <meta name="twitter:site" content="@PURE5Extraction">
+
+  <title>PURE5™ - Advanced Cannabis Extraction Equipment | R134a Technology</title>
+  
+  <link rel="canonical" href="https://pure5extraction.com">
+
+  <!-- Favicon for better user experience -->
+  <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+
+  <!-- Structured Data (JSON-LD) for better visibility in search results -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "PURE5™",
+      "url": "https://pure5extraction.com",
+      "logo": "path/to/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-602-666-6146",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/Pure5Extraction",
+        "https://twitter.com/PURE5Extraction",
+        "https://www.linkedin.com/company/pure5extraction"
+      ]
+    }
+  </script>
+
+
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background-color: #2c3e50; padding: 15px; text-align: center; color: #fff; }
+    section { padding: 20px; max-width: 800px; margin: auto; }
+    footer { background-color: #2c3e50; color: #fff; text-align: center; padding: 15px; }
+    a { color: #3498db; text-decoration: none; }
+  
+
+     .slider-container { max-width: 80%; height: 600px; margin: auto; overflow: hidden; position: relative; }
+    .slider { display: flex; transition: transform 1s ease-in-out; }
+    .slide { min-width: 100%; height: 100%; object-fit: cover; }
+    img { width: 100%; height: 100%; display: block; }
+  </style>
+  
+  
+  
+  
+<script>
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slide').length;
+    if (index >= totalSlides) currentIndex = 0;
+    if (index < 0) currentIndex = totalSlides - 1;
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+
+  function nextSlide() {
+    currentIndex++;
+    showSlide(currentIndex);
+  }
+
+  function prevSlide() {
+    currentIndex--;
+    showSlide(currentIndex);
+  }
+
+  setInterval(nextSlide, 5000);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+<header>
+  <h1>PURE5™ - Advanced Cannabis Extraction Equipment</h1>
+  <p>
+    <a href="index.html" class="nav-link" id="home-link">Home</a> | 
+    <a href="pure5-technology.html" class="nav-link" id="technology-link">Technology</a> | 
+    <a href="pure5-benefits.html" class="nav-link" id="benefits-link">Benefits</a> | 
+    <a href="pure5-services.html" class="nav-link" id="services-link">Services</a> | 
+    <a href="pure5-products.html" class="nav-link" id="products-link">Products</a> | 
+    <a href="pure5-faq.html" class="nav-link" id="faq-link">FAQ</a>
+  </p>
+</header>
+
+<style>
+  /* Basic link styling */
+  .nav-link {
+    color: #3498db; /* Link color */
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s ease;
+  }
+
+  /* Hover effect - all links will become 95% whiter when hovered */
+  .nav-link:hover {
+    color: rgba(255, 255, 255, 0.95); /* Slightly whiter on hover */
+  }
+
+  /* Active page link - will be bolder and colored white */
+  .nav-link.active {
+    font-weight: bold;
+    color: white;
+  }
+</style>
+
+<script>
+  // Get the current page URL
+  const currentPage = window.location.pathname;
+
+  // Select all the links
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  // Loop through each link and check if it matches the current page
+  navLinks.forEach(link => {
+    if (link.href.includes(currentPage)) {
+      link.classList.add('active'); // Add active class if it's the current page
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="slider-container">
+  <div class="slider">
+    <div class="slides">
+      <img src="slider-image-01.png" class="slide" alt="PURE5 Extraction">
+      <img src="slider-image-02.png" class="slide" alt="PURE5 Extraction">
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+</div>
+
+<style>
+  .slider-container {
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .slide {
+    flex: 0 0 100%;
+    max-height: 500px;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .prev { left: 10px; }
+  .next { right: 10px; }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Add a media query for mobile */
+
+
+
+@media only screen and (max-width: 768px) {
+  .slider-container {
+    height: 300px; /* Smaller height for mobile screens */
+    width: 100%; /* Ensure the container takes up full width */
+    max-width: 100%; /* Make sure it stretches to the full width */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+
+  .slider {
+    width: 100%; /* Full width of the container */
+    display: flex;
+    flex-direction: row; /* Align slides in a row */
+    transition: transform 1s ease-in-out;
+  }
+
+  .slides {
+    display: flex; /* Keep the slides in a row */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%; /* Make sure slides take up the full width */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .slide {
+    flex: 0 0 100%; /* Make each slide take up 100% width */
+    object-fit: cover; /* Ensure images fit well */
+    height: 100%; /* Make sure slides fill the height */
+    width: 100%; /* Ensure the slide is 100% width */
+  }
+
+  /* Ensure navigation buttons stay inside the slider */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .prev { left: 10px; }
+  .next { right: 10px; }
+}
+</style>
+
+
+<section>
+
+<section>
+
+<section>
+  <h2>About PURE5™</h2>
+  <p>PURE5™ is a global leader in <strong>cannabis extraction equipment</strong>, offering cutting-edge solutions powered by our proprietary R134a technology. Our systems are designed for premium, full-spectrum extracts, preserving the complete natural profile of the plant. Our commitment to innovation and sustainability has established us as pioneers in the industry.</p>
+
+  <h2>Our Comprehensive Solutions</h2>
+  <p>At PURE5™, we offer more than just equipment. We provide a complete ecosystem of solutions designed to support your business at every stage:</p>
+  <ul>
+    <li><strong>R134a Extraction Systems:</strong> Safe, efficient, and eco-friendly technology for superior extracts.</li>
+    <li><strong>Temperature-Controlled Systems:</strong> Preserve the integrity of cannabinoids and terpenes.</li>
+    <li><strong>Aerosol Extraction:</strong> Enhance shelf life and potency with our innovative approach.</li>
+    <li><strong>Custom Extraction Solutions:</strong> Tailored designs to fit your unique needs.</li>
+    <li><strong>Consulting and Support:</strong> Expert guidance to optimize your operations.</li>
+  </ul>
+
+  <h2>Why Choose PURE5™?</h2>
+  <ul>
+    <li><strong>Premium Quality:</strong> Our technology ensures full-spectrum extracts with unmatched purity.</li>
+    <li><strong>Eco-Friendly Technology:</strong> Utilizing non-flammable, recyclable R134a solvent.</li>
+    <li><strong>Scalable Solutions:</strong> Systems for small labs to industrial production.</li>
+    <li><strong>Comprehensive Support:</strong> Training, consulting, and maintenance services.</li>
+  </ul>
+
+  <h2>Contact Information</h2>
+  <p><strong>Headquarters:</strong> 12620 N Cave Creek Rd, Suite 6, Phoenix, AZ, 85022</p>
+  <p><strong>USA Contacts:</strong> General: +1 (602) 666-6146 | Support: +1 (602) 284-4777</p>
+  <p><strong>Europe Contacts:</strong> General: +359 897 234 378</p>
+  <p><strong>Email:</strong> <a href="mailto:p5@pure5extraction.com">p5@pure5extraction.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 PURE5™ - Advanced Cannabis Extraction Equipment | <a href="https://pure5extraction.com">Visit Our Website</a></p>
+</footer>
+
+</body>
+</html>
